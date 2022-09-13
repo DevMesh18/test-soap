@@ -1,0 +1,13 @@
+sources:
+ - name: MySoap
+   handler:
+     soap:
+       wsdl: http://localhost:8088/mockOutputEventServicePortBinding?WSDL
+       basicAuth:
+         username: username
+         password: password
+additionalTypeDefs:
+  - ./typedefs.js
+additionalResolvers:
+  - ./resolver.js         
+

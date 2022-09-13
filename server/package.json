@@ -1,0 +1,24 @@
+{
+  "name": "test-soap",
+  "version": "1.0.0",
+  "description": "test-soap",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "gopesh",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "graphql": "^16.6.0",
+    "@graphql-mesh/cli": "^0.76.1",
+    "@graphql-mesh/config": "^6.1.0",
+    "@graphql-mesh/graphql": "^0.29.12",
+    "@graphql-mesh/openapi": "^0.31.2",
+    "@graphql-mesh/runtime": "0.42.2",
+    "@graphql-mesh/soap": "0.12.12",
+    "@graphql-mesh/transform-cache": "0.12.33",
+    "@graphql-mesh/transform-snapshot": "0.14.44",
+    "@graphql-tools/schema": "^9.0.1"
+  }
+}
