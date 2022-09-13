@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm start"
   },
-  "author": "gopesh",
+  "author": "mesh",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.10.2",
